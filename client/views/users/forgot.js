@@ -6,14 +6,20 @@ Template.forgot.events = {
       email: $('#email').val()
     };
 
-    Accounts.forgotPassword(options, function(error){
-      if(error){
-        flash(error.reason, "error");
-      }else{
-        Router.go('/signin');
-        flash("Password reset link sent!");
-      }
-    });
+    if ( options.email == "" || options.email == null || typeof options.email === "undefined" ) {
+      flash("Please enter your email address.");
+      $("#email").focus()
+    }
+    else {
+      Accounts.forgotPassword(options, function(error){
+        if(error){
+          flash(error.reason, "error");
+        }else{
+          Router.go('/signin');
+          flash("Password reset link sent!");
+        }
+      });
+    }
 
   }
 };
