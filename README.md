@@ -1,8 +1,10 @@
-# Void
+(Editted the original description to be a little Bootstrapy)
 
-A starter boilerplate app template for [Meteor](http://meteor.com) using [IronRouter](https://github.com/EventedMind/iron-router).
+# Void Bootstrap
 
-Void is based on [Telescope](http://telesc.pe) (an open-source social news app) and is bought to you by the [Discover Meteor](https://www.discovermeteor.com) team. 
+A starter boilerplate app template for [Meteor](http://meteor.com) using [IronRouter](https://github.com/EventedMind/iron-router) and [Bootstrap 3](http://getbootstrap).
+
+Void Boostrap is based on the original [Void](http://github.com/SachaG/Void) Meteor boilerplate, [Telescope](http://telesc.pe) (an open-source social news app) and is bought to you by the [Discover Meteor](https://www.discovermeteor.com) team. 
 
 ## Installation
 
@@ -24,6 +26,7 @@ mrt
 - Publications/subscriptions
 - Basic permissions
 - Common templates
+- Bootstrap 3 Theme, Components and JavaScript Plugins
 
 ## Principles
 
@@ -33,41 +36,44 @@ Void uses the `Items` collection as an example, but you would probably replace t
 
 ## File Structure
 
-- **client**
-	- **CSS**
-	- **helpers**
+```
+- client
+	- CSS
+	- helpers
 		- handlebars.js
 		- router.js
-	- **views**
-		- **common**
+	- views
+		- common
 			- footer.html
 			- header.html
 			- layout.html
 			- loading.html
 			- notFound.html
-		- **items**
+		- items
 			- item.html
 			- item.js
 			- items.html
-		- **pages**
+		- pages
 			- homepage.html
 	- main.html
 	- main.js
-- **collections**
+- collections
 	- items.js
-- **lib**
+- lib
 	- helpers.js
 	- permissions.js
-- **packages**
+- packages
 	- iron-router
 	- sample-package
-- **public**
-- **server**
+- public
+- server
 	- fixtures.js
 	- publications.js
+```
 
 ## Other Boilerplates
 
+- [Void](https://github.com/SachaG/Void) by SachaG
 - [meteor-boilerplate](https://github.com/matteodem/meteor-boilerplate) by matteodem
 - [meteor-jw-opinionated-skeleton](https://github.com/jamesdwilson/meteor-jw-opinionated-skeleton) by jamesdwilson (CoffeeScript)
 - [meteor-boilerplate](https://github.com/BeDifferential/meteor-boilerplate) by BeDifferential (CoffeeScript)
