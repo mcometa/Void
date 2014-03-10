@@ -73,7 +73,7 @@ Void uses the `Items` collection as an example, but you would probably replace t
 
 ## Future Plans (To-do's)
 
-- Roles / Authorization using [meteor-roles](http://github.com/alanning/meteor-roles)
+- Roles / Authorization using [meteor-roles](http://github.com/alanning/meteor-roles) by [alanning](http://github.com/alanning/)
 
 ## Other Boilerplates
 
