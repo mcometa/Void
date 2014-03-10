@@ -28,9 +28,10 @@ mrt
 - Common templates
 - Bootstrap 3 Theme, Components and JavaScript Plugins
 
-From Justin Folley's version:
+From Justin Folley's repo:
+- [autoform](http://github.com/aldeed/meteor-autoform), [collection2](http://github.com/aldeed/meteor-collection2) and [simple-schema](https://github.com/aldeed/meteor-simple-schema) combo.
+- Basic CRUD.
 
-- 
 
 ## Principles
 
@@ -41,38 +42,71 @@ Void uses the `Items` collection as an example, but you would probably replace t
 ## File Structure
 
 ```
-- client
-	- CSS
-	- helpers
-		- handlebars.js
-		- router.js
-	- views
-		- common
-			- footer.html
-			- header.html
-			- layout.html
-			- loading.html
-			- notFound.html
-		- items
-			- item.html
-			- item.js
-			- items.html
-		- pages
-			- homepage.html
-	- main.html
-	- main.js
-- collections
-	- items.js
-- lib
-	- helpers.js
-	- permissions.js
-- packages
-	- iron-router
-	- sample-package
-- public
-- server
-	- fixtures.js
-	- publications.js
+.
+├── client
+│   ├── helpers
+│   │   ├── account.js
+│   │   ├── handlebars.js
+│   │   ├── messages.js
+│   │   └── router.js
+│   ├── main.html
+│   ├── main.js
+│   ├── stylesheets
+│   │   └── app.less
+│   └── views
+│       ├── common
+│       │   ├── alerts.html
+│       │   ├── alerts.js
+│       │   ├── footer.html
+│       │   ├── header.html
+│       │   ├── header.js
+│       │   ├── layout.html
+│       │   ├── loading.html
+│       │   ├── messages.html
+│       │   └── notFound.html
+│       ├── items
+│       │   ├── item_create.html
+│       │   ├── item_create.js
+│       │   ├── item.html
+│       │   ├── item.js
+│       │   ├── items.html
+│       │   └── items.js
+│       ├── pages
+│       │   ├── content.html
+│       │   └── homepage.html
+│       └── users
+│           ├── forgot.html
+│           ├── forgot.js
+│           ├── login.html
+│           └── signup.html
+├── History.md
+├── lib
+│   ├── helpers.js
+│   └── permissions.js
+├── models
+│   └── items.js
+├── packages
+│   ├── accounts-ui-bootstrap-3
+│   ├── autoform
+│   ├── bootstrap3-less
+│   ├── collection2
+│   ├── iron-router
+│   ├── iron-router-progress
+│   ├── moment
+│   ├── sample-package
+│   │   ├── package.js
+│   │   └── sample.js
+│   └── simple-schema
+├── public
+│   ├── fonts
+│   └── images
+│       └── void.jpg
+├── README.md
+├── server
+│   ├── publications.js
+│   └── seed.js
+├── smart.json
+└── smart.lock
 ```
 
 ## Other Boilerplates
