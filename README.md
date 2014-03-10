@@ -1,10 +1,10 @@
-(Editted the original description to be a little Bootstrapy)
-
 # Void Bootstrap
 
 A starter boilerplate app template for [Meteor](http://meteor.com) using [IronRouter](https://github.com/EventedMind/iron-router) and [Bootstrap 3](http://getbootstrap).
 
-Void Boostrap is based on the original [Void](http://github.com/SachaG/Void) Meteor boilerplate, [Telescope](http://telesc.pe) (an open-source social news app) and is bought to you by the [Discover Meteor](https://www.discovermeteor.com) team. 
+Void Boostrap is based on the original [Void](http://github.com/SachaG/Void) Meteor boilerplate, [Telescope](http://telesc.pe) (an open-source social news app) and is bought to you by the [Discover Meteor](https://www.discovermeteor.com) team.
+
+I also merged cool stuff from [Justin Foley](https://github.com/jfols)'s version.
 
 ## Installation
 
@@ -27,6 +27,10 @@ mrt
 - Basic permissions
 - Common templates
 - Bootstrap 3 Theme, Components and JavaScript Plugins
+
+From Justin Folley's version:
+
+- 
 
 ## Principles
 
@@ -70,10 +74,6 @@ Void uses the `Items` collection as an example, but you would probably replace t
 	- fixtures.js
 	- publications.js
 ```
-
-## Future Plans (To-do's)
-
-- Roles / Authorization using [meteor-roles](http://github.com/alanning/meteor-roles) by [alanning](http://github.com/alanning/)
 
 ## Other Boilerplates
 
