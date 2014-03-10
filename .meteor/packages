@@ -7,7 +7,6 @@ standard-app-packages
 preserve-inputs
 accounts-base
 accounts-password
-accounts-ui
 bootstrap3-less
 less
 iron-router-progress
