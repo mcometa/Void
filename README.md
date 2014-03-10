@@ -71,6 +71,10 @@ Void uses the `Items` collection as an example, but you would probably replace t
 	- publications.js
 ```
 
+## Future Plans (To-do's)
+
+- Roles / Authorization using [meteor-roles](http://github.com/alanning/meteor-roles)
+
 ## Other Boilerplates
 
 - [Void](https://github.com/SachaG/Void) by SachaG
