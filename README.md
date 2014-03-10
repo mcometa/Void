@@ -77,7 +77,6 @@ Void uses the `Items` collection as an example, but you would probably replace t
 
 ## Other Boilerplates
 
-- [Void](https://github.com/SachaG/Void) by SachaG
 - [meteor-boilerplate](https://github.com/matteodem/meteor-boilerplate) by matteodem
 - [meteor-jw-opinionated-skeleton](https://github.com/jamesdwilson/meteor-jw-opinionated-skeleton) by jamesdwilson (CoffeeScript)
 - [meteor-boilerplate](https://github.com/BeDifferential/meteor-boilerplate) by BeDifferential (CoffeeScript)
